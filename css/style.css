@@ -1,0 +1,91 @@
+body {
+	color:#fff;
+	font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif;
+}
+.section {
+	text-align: center;
+	font-size: 0.14rem;
+	/*background-color: #3498DB;*/
+	background:-moz-linear-gradient(top,#3498DB,#f96);/*Mozilla*/
+	background:-webkit-gradient(linear,0 50%,100% 50%,from(#3498DB),to(#f96));/*Old gradient for webkit*/
+	background:-webkit-linear-gradient(top,#3498DB,#f96);/*new gradient for Webkit*/
+	background:-o-linear-gradient(top,#3498DB,#f96); /*Opera11*/
+}
+.section h4 {
+	font-size: 0.16rem;
+	display: none;
+}
+.slide {
+	text-align: center;
+}
+
+.logo {
+	width:1.6rem;
+	height: 1.6rem;
+	border-radius: 0.8rem;
+	overflow: hidden;
+	margin:0 auto;
+}
+.logo img {
+	width:100%;
+	height: 100%;
+	display: block;
+}
+.info {
+	font-size: 0.16rem;
+	margin:0.2rem auto;
+	text-shadow:1px 1px 1px #ccc;
+	opacity: 0;
+}
+.aphorism {
+	font-family: bold;
+	margin-top: 0.4rem;
+	color:#f5f5f5;
+}
+
+.title {
+	font-size: 0.16rem;
+	height:0.5rem;
+	line-height: 0.5rem;
+}
+.wrapper {
+	padding:0 0.2rem;
+}
+.wrapper .list {
+	margin:0.2rem auto;
+	text-align: left;
+}
+.section4 h4 {
+	top:0;
+	margin-bottom: 0.2rem;
+}
+.skill {
+	width:50%;
+	height:1.16rem;
+	float:left;
+	opacity: 0;
+}
+.skill dd {
+	height:0.16rem;
+}
+.contact {
+	height:0.3rem;
+	line-height: 0.3rem;
+	margin:0.2rem auto;
+	opacity: 0;
+}
+.contact a {
+	color:#fff;
+}
+
+.fp-controlArrow {
+	margin-top: -0.14rem;
+}
+.fp-controlArrow.fp-next {
+	border-width: 0.14rem 0 0.14rem 0.14rem;
+}
+.fp-controlArrow.fp-prev {
+	border-width: 0.14rem 0.14rem 0.14rem 0;
+}
+
+    
